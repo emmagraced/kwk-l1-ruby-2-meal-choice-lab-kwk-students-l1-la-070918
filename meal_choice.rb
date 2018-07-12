@@ -5,17 +5,17 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods o)
 def breakfast(food="frosted flakes")
-  puts "Morning is the best time for #{food}"
+   "Morning is the best time for #{food}"
 end
 breakfast("waffles")
 
 def lunch(food="grilled cheese")
-puts "The best lunch is #{food}!"
+ "The best lunch is #{food}!"
 end
 lunch("pasta")
 
 def dinner(food="salmon")
-  puts "I love having #{food} for dinner."
+  "I love having #{food} for dinner."
 end
 dinner("steak")
 
